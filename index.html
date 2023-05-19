@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>To-Do List</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="box">
+      <h1 class="title">To-Do <span>List</span></h1>
+
+      <div class="box-list">
+
+        <div class="box-list__item">
+          <input class="box-list__add" type="text" placeholder="Please write your task" required>
+          <button class="box-list__btn" data-add="add">ADD</button>
+        </div>
+
+
+        <ol class="box-list__items">
+        </ol>
+
+        <button class="box-list__delete box-list__btn" data-add="delete">
+          DELETE ALL TASK
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
